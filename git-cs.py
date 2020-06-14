@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
 	xy[0] += 4
 	text(xy[0], xy[1] + L[1], "clone", fontsize=F[1])
-	text(xy[0], xy[1] + L[2], "https://github.com/\n  pmamonov/git-cs", fontsize=10)
+	text(xy[0], xy[1] + L[2], "https://origin.net/repo", fontsize=10)
 	b("origin/b1", "red", (2,3), (0,1), xy, r = 90)
 	b("origin/b2", "blue", (2,3), (0,2), xy, r = 90)
 	b("*master, origin/master", "green", (0,1,2,3), (0,0,0,0), xy, r=90)
