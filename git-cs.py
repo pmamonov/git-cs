@@ -61,14 +61,14 @@ if __name__ == "__main__":
 	xy[0] += 4
 	text(xy[0], xy[1] + L[1], "add [-p]", fontsize=F[1])
 	text(xy[0], xy[1] + L[2], "file", fontsize=F[2])
-	b("", "orange", (3, 4), (1,1), xy)
+	b("", "red", (3, 4), (1,1), xy, fs="none")
 	b("*b1", "red", (2,3), (0,1), xy)
 	b("", "green", (0,1,2,), (0,0,0), xy)
 
 	xy[0] += 4
 	text(xy[0], xy[1] + L[1], "status, diff", fontsize=F[1])
 	text(xy[0], xy[1] + L[2], "[ file ]", fontsize=F[2])
-	b("?", "orange", (3, 4), (1,1), xy)
+	b("?", "red", (3, 4), (1,1), xy, fs="none")
 	b("*b1", "red", (2,3), (0,1), xy)
 	b("", "green", (0,1,2,), (0,0,0), xy)
 
